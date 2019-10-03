@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+        <title>Displaying Distribution</title>
+    </head>
+    <body>
+        <h1>Displaying Distribution</h1>
+        <section id="top">
+            <h3>What is a distribution?</h3>
+            <p>A distribution is a visualization method that shows how data allocate or how data spread out in a specific range. Different distribution includes box and whisker plot, density plot, histogram, ...</p>
+            <p>
+                When discussing a distribution, there are 4 elements that we care about:
+            </p>
+            <ol>
+                <li><a href="#Center">Level/Center</a></li>
+                <li><a href="#Spread">Spread</a></li>
+                <li><a href="#Shape">Shape</a></li>
+                <li><a href="#Outliers">Outliers</a></li>
+            </ol>
+        </section>
+        <section id="Center">
+            <h3>Level/Center</h3>
+            <p>The level is measures of central tendency, such as a <b>mean</b>, <b>mode</b>, or <b>median</b>. These elements are usually shown together to have a complete look at the data. I reuse the following picture from my previous prep but with the mean, mode, and median shown on it:</p>
+            <figure>
+                <img src="Histogram.png" />
+                <figcaption>The mean, mode, and median of a data set</figcaption>
+            </figure>
+            <br />
+            <a href="#top">Back to top</a>
+        </section>
+        <section id="Spread">
+            <h3>Spread</h3>
+            Spread of a distribution shows its dispersion. Here's a box plot that I generated online:
+            <figure>
+                <img src="Boxplot.PNG" />
+            </figure>
+            Here we can see that the data mainly distribute in between 5 and 13. The difference between two ends of the box is the <b>Interquartile Range (IQR)</b>. The verticle line is the median. So the spread helps us see the distribution of the data.
+            <br />
+            <a href="#top">Back to top</a>
+        </section>
+        <section id="Shape">
+            <h3>Shape</h3>
+            Distribution can have 2 types of shape:
+            <ol>
+                <li>Symmetrical<br />
+                    Symmetrical distribution has its left half and right half are mirror images of each other.
+                    <figure>
+                        <img src="Symmetrical.png" />
+                        <figcaption>A symmetrical distribution</figcaption>
+                    </figure>
+                </li>
+                <li>Skewed<br />
+                    Distributions that are not symmetrical are skewed distribution. It can be skewed to the left (negative skew)
+                    <figure>
+                        <img src="Leftskew.png" />
+                        <figcaption>A left skew distribution</figcaption>
+                    </figure>
+                    or skewed to the right (positive skew)
+                    <figure>
+                        <img src="Rightskew.png" />
+                        <figcaption>A right skew distribution</figcaption>
+                    </figure>
+                    As you can see, the longer end (also called the tail) of the distribution determines which direction is it skewed to.<br />
+                </li>
+            </ol>
+            So what can shape of a distribution tells us? We can estimate where the <b>mean</b>, <b>mode</b>, and <b>median</b> are for each type of distribution shape. For example, because the left and right halves of the symmetrical distribution are symmetry, itsthe <b>mean</b>, <b>mode</b>, and <b>median</b> are at about the same place. For skewed distributions, right skewed distributions will have <b>mode</b> &lt; <b>median</b> &lt; <b>mean</b>
+            <figure>
+                <img src="Rightskew_2.png" />
+            </figure>
+            and contrary for left-skewed distributions.
+            <br />
+            <a href="#top">Back to top</a>
+        </section>
+        <section id="Outliers">
+            <h3>Outliers</h3>
+            <figure>
+                <img src="Boxplot.PNG" />
+            </figure>
+            This box plot has the dots to the right of the whisker. The dots are <b>outliers</b> of the data set. <b>Outliers</b> are values that are far away from the main part of the distribution. This gives us a more visual way to see if there is any exception element.
+            <br />
+            <a href="#top">Back to top</a>
+        </section>
+    </body>
+</html>
